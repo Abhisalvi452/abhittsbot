@@ -6,7 +6,7 @@ def start(update, context):
 
 def main():
     # Replace YOUR_TOKEN with the token of your bot
-    updater = Updater("YOUR_TOKEN", use_context=True)
+    updater = Updater("5444828269:AAHYJxZzgRNMVqTkwXaCeEReU2q8r5Hiazs", use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
     updater.start_polling()
