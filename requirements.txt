@@ -1,0 +1,4 @@
+edge_tts==1.0.1
+asyncio==3.4.3
+json==2.0.9
+python-telegram-bot==20.0.1
